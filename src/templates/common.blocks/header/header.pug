@@ -1,0 +1,61 @@
+header.header
+.container.header__bottom-container
+    .row
+      .header__logo.col-md-3
+        .header__logo-content
+          img.header__logo-image(src="img/logo.png", alt="JetStyle_logo")
+
+      .header__contact-item.col-md-4
+        h2.header__contact-item-title
+          .header__contact-item-title-text Екатеринбург
+        h3.header__contact-item-title
+          a(href='callto:+73432372319').header__contact-item-title-text +7 (343) 237-23-19
+          
+        .header__contact-item.col-md-4
+        h2.header__contact-item-title
+          .header__contact-item-title-text Москва
+        h3.header__contact-item-title
+          a(href='callto:+74957893736').header__contact-item-title-text +7 (495) 789-37-36
+          
+        .header__contact-item.col-md-4
+        h2.header__contact-item-title
+          .header__contact-item-title-text Санкт-Петербург
+        h3.header__contact-item-title
+          a(href='callto:+78127164888').header__contact-item-title-text +7 (812) 716-4-888
+          
+        .header__lisence
+        h3.header__lisence-title
+          a(href='/').header__lisence-title-text ПРОДЛИТЬ ЛИЦЕНЗИЮ
+          
+        .header__search
+            input.header__search-toggle#header__search-toggle(type="checkbox")
+    .top-menu__bar
+      form.header__search#header__search-toggle
+          input.header__search-input(type="search" autofocus placeholder="Введите текст для поиска")
+          label.header__search-button(for="top-menu__search-toggle")
+            .header__search-button-icon.fa.fa-search
+            img.header__search-image(src="img/search.png", alt="Поиск")
+          
+          
+          
+nav.top-menu
+  .top-menu__container.container
+
+    menu.top-menu__list
+      li.top-menu__item
+        a.top-menu__link(href="") РЕШЕНИЯ ДЛЯ БИЗНЕСА
+      li.top-menu__item
+        a.top-menu__link(href="") ПРОГРАММЫ
+      li.top-menu__item
+        a.top-menu__link(href="") ДЕМОВЕРСИИ
+      li.top-menu__item
+        a.top-menu__link(href="") ТЕХПОДДЕРЖКА
+      li.top-menu__item
+        a.top-menu__link(href="") БАЗА ЗНАНИЙ
+      li.top-menu__item
+        a.top-menu__link(href="") О КОМПАНИИ
+      li.top-menu__item.top-menu__item_active
+        a.top-menu__link.top-menu__link_first(href="/") СКАЧАТЬ
+        
+    menu.top-menu__cart
+        img.top-menu__cart-image(src="img/cart.png", alt="Ваша корзина")
